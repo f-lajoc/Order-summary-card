@@ -1,0 +1,127 @@
+:root{
+/* COLORS */
+
+/* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  
+ /* Neutral */
+ --very-paleblue: hsl(225, 100%, 98%);
+--desaturated-blue: hsl(224, 23%, 55%);
+--dark-blue: hsl(223, 47%, 23%);
+--somecolor: rgba(118,108,241,255);
+}
+
+body{
+ background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--pale-blue);
+  text-align: center;
+  margin:30px 20px;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display',sans-serif;/*fall-back fonts*/
+  font-weight: 500;
+}
+
+/* main container styling*/
+.main{
+border: 5px solid var(--pale-blue);
+border-radius:40px;
+background-color: var(--very-paleblue);
+overflow: auto;
+}
+
+.main2{
+  padding: 20px;
+}
+
+/* music container styling */
+.music-container{
+border: none;
+border-radius: 10px;
+background-color: hsla(225, 100%, 94%, 0.5); /*alpha 'a' is for transparency*/
+}
+
+.icon,.plan,.change{display: inline-block;
+  vertical-align: middle;
+  margin: 0px 10px;
+}  
+
+/* music container link styling(change) */
+.music-container a{
+  color: var(--bright-blue);
+}
+
+.music-container a:hover, .music-container a:active{
+  color: var(--somecolor);
+  text-decoration-line: none;
+}
+
+/* proceed payment button style */
+ .btn1{
+   margin: 20px 0px;
+   background-color: var(--bright-blue);
+   color: white;
+   border: none;
+   width: 100%;
+   padding: 15px;
+   border-radius: 15px;
+   font-size: 20px;
+   box-shadow: 2px 10px 5px 2px hsla(225, 100%, 94%,1);}
+   
+/* proceed payment active state */
+.btn1:hover,.btn1:active{
+  background-color: var(--somecolor);
+}
+
+/*for paragraphs and cancel order*/
+p, .btn2{
+  font-size: 16px;
+  color: var(--desaturated-blue);
+}
+
+/* h1,plan & active state for cancel button */
+h1, .annual-plan, .btn2:hover, btn2:active{
+  color: var(--dark-blue);
+}
+
+.btn2{
+  background-color: transparent;
+  border: none;
+}
+
+.btn2:hover,btn2:active{
+  color:
+}
+
+ /*for devices larger than 400px*/
+ @media (min-width:400px){
+   body{
+     background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  margin:30em 20em;
+  box-sizing: border-box;
+  background-color: var(--pale-blue);
+  font-weight:700;
+   }
+ }
+ /*for landscape orientation*/
+ @media screen and (orientation: landscape) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin:8em 12em;
+  box-sizing: border-box;
+  background-color: var(--pale-blue);
+  font-weight:900;
+  }
+}
+
+ /* bottom attribution */
+ footer { font-size: 11px; text-align: center; }
+ footer a { color: hsl(228, 45%, 44%); 
+ text-decoration-line: none;
+ }
+ 
