@@ -17,8 +17,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![design mobile view](screenshot.png)
-
+<img src="screenshots/mobile-view.png" width="200">
 
 ### Links
 - Solution URL: [https://github.com/f-lajoc/Order-summary-card]
