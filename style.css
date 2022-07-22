@@ -25,6 +25,10 @@ body{
 }
 
 /* main container styling*/
+.main img{
+width:100%;
+}
+
 .main{
 border: 5px solid var(--pale-blue);
 border-radius:40px;
