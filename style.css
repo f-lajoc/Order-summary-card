@@ -115,8 +115,16 @@ h1, .annual-plan, .btn2:hover, btn2:active{
   box-sizing: border-box;
   background-color: var(--pale-blue);
   font-weight:700;
+  max-width:350px;
    }
+
+ main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  }
+
  /*for landscape orientation*/
  @media screen and (orientation: landscape) {
   body {
