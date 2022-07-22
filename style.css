@@ -22,11 +22,18 @@ body{
   box-sizing: border-box;
   font-family: 'Red Hat Display',sans-serif;/*fall-back fonts*/
   font-weight: 500;
+  max-width: 350px;
 }
 
 /* main container styling*/
 .main img{
 width:100%;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main{
